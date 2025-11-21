@@ -1,0 +1,23 @@
+{
+    "name": "sih-db",
+    "version": "1.0.0",
+    "description": "SIH 2025 - AI-Powered Crop Yield Prediction Database",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js",
+      "dev": "nodemon app.js",
+      "setup-db": "node setup_database.js",
+      "test": "echo \"No tests specified\" && exit 0"
+    },
+    "keywords": ["sih", "agriculture", "crop", "disease", "mongodb", "nodejs"],
+    "author": "Tech Titan 2.0 - SIH 2025",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.18.2",
+      "mongodb": "^5.7.0",
+      "dotenv": "^16.3.1"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.1"
+    }
+  }
